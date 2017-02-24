@@ -1,0 +1,11 @@
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at Kruskal_MST.Kruskal.fromFileToGraph(Kruskal.java:39)
+	at Kruskal_MST.Kruskal.main(Kruskal.java:17)
+
+	
+Reason:
+	java.lang.OutOfMemoryError: Java heap space error is thrown whenever the JVM reaches the heap size limit.
+	
+Reference:
+	https://plumbr.eu/outofmemoryerror/java-heap-space
+	
